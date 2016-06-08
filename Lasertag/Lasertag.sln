@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Receiver", "Receiver\Receiver.vcxproj", "{FD5DF4D2-10BE-424F-AD86-C7A83C662340}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transmitter", "Transmitter\Transmitter.vcxproj", "{A469DC48-4DDD-463E-AA56-4EE69A3CA363}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD5DF4D2-10BE-424F-AD86-C7A83C662340}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD5DF4D2-10BE-424F-AD86-C7A83C662340}.Debug|Win32.Build.0 = Debug|Win32
+		{FD5DF4D2-10BE-424F-AD86-C7A83C662340}.Release|Win32.ActiveCfg = Release|Win32
+		{FD5DF4D2-10BE-424F-AD86-C7A83C662340}.Release|Win32.Build.0 = Release|Win32
+		{A469DC48-4DDD-463E-AA56-4EE69A3CA363}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A469DC48-4DDD-463E-AA56-4EE69A3CA363}.Debug|Win32.Build.0 = Debug|Win32
+		{A469DC48-4DDD-463E-AA56-4EE69A3CA363}.Release|Win32.ActiveCfg = Release|Win32
+		{A469DC48-4DDD-463E-AA56-4EE69A3CA363}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

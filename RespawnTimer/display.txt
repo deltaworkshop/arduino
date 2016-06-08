@@ -1,0 +1,25 @@
+ Контакт дисплея   Контакт Arduino   Значение
+
+  1                  GND              Vss
+
+  2                  5V               Vdd
+
+  3                  GND              Vo (контрастность)
+
+  4                  digital 12       RS
+
+  5                  digital 11       R/W
+
+  6                  digital 10       ENABLE
+
+  11                 digital 5        DB4
+
+  12                 digital 4        DB5
+
+  13                 digital 3        DB6
+
+  14                 digital 2        DB7
+
+  15                 5V               LED+
+
+  16                 GND              LED-
