@@ -4,6 +4,8 @@
 #include <Keypad.h>
 
 /*
+Used "Wake from deep sleep with a keypress demonstration" (Author: Nick Gammon)
+http://www.gammon.com.au/forum/?id=11497&reply=4#reply4
 
 Pin change interrupts.
 
