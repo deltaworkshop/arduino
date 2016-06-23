@@ -39,6 +39,8 @@ A5	  PCINT13 (PCMSK1 / PCIF1 / PCIE1)
 #define BEEP_PIN 10
 #define SIGNAL_PIN 11
 
+// LCD constructor parameters are relatd for our particular IIC adapter.
+// Consider to change them appropriately if they will not work with your IIC device.
 LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 const byte rows = 4; //four rows
 const byte cols = 3; //three columns
@@ -502,6 +504,7 @@ void handleSignal()
 {
 	if (SignalTime > 0)
 	{
+		// our relay module is switched by LOW signal, just change it if your one will be switched by HIGH
 		digitalWrite(SIGNAL_PIN, LOW);
 		delay(SignalTime * 1000);
 		digitalWrite(SIGNAL_PIN, HIGH);
